@@ -8,7 +8,7 @@ packet = packetCollection[0]
 
 # Changes applied
 
-packet[UDP].len = 10    # Reduce header length of UDP Layer
+# packet[UDP].len = 10    # Reduce header length of UDP Layer
 
 packet.show()
 

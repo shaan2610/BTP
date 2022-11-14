@@ -8,8 +8,8 @@ packet = packetCollection[0]
 
 # Changes applied
 
-# packet[IP].flags = F
-# packet[UDP].dport = "http"
+packet[IP].flags = 1        # Changed the flag of IP layer
+packet[UDP].dport = 3443    # Changing the dport in UDP layer
 
 packet.show()
 

@@ -8,6 +8,8 @@ packet = packetCollection[0]
 
 # Changes applied
 
+packet.show()
+
 # Attack starts
 
 cnt=1
